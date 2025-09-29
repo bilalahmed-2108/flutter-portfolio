@@ -1,0 +1,19 @@
+{
+  "name": "bilal-flutter-portfolio",
+  "version": "1.0.0",
+  "description": "Bilal Ahmed's Flutter Portfolio App",
+  "scripts": {
+    "build": "flutter build web --release",
+    "dev": "flutter run -d chrome --web-port 3000"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "flutter",
+    "portfolio",
+    "web"
+  ],
+  "author": "Bilal Ahmed",
+  "license": "MIT"
+}
