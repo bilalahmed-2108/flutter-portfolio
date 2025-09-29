@@ -4,34 +4,34 @@
   "outputDirectory": "build/web",
   "installCommand": "flutter pub get",
   "framework": null,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
     },
     {
-      "src": "/canvaskit/(.*)",
-      "dest": "/canvaskit/$1"
+      "source": "/canvaskit/(.*)",
+      "destination": "/canvaskit/$1"
     },
     {
-      "src": "/flutter_service_worker.js",
-      "dest": "/flutter_service_worker.js"
+      "source": "/flutter_service_worker.js",
+      "destination": "/flutter_service_worker.js"
     },
     {
-      "src": "/manifest.json",
-      "dest": "/manifest.json"
+      "source": "/manifest.json",
+      "destination": "/manifest.json"
     },
     {
-      "src": "/favicon.png",
-      "dest": "/favicon.png"
+      "source": "/favicon.png",
+      "destination": "/favicon.png"
     },
     {
-      "src": "/icons/(.*)",
-      "dest": "/icons/$1"
+      "source": "/icons/(.*)",
+      "destination": "/icons/$1"
     },
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
